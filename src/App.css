@@ -72,6 +72,11 @@ section {
   position: relative;
 }
 
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
 .card-image {
   width: 100%;
   max-height: 240px;
