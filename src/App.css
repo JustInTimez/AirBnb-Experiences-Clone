@@ -74,7 +74,6 @@ section {
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .card-image {
@@ -103,11 +102,17 @@ section {
 
 .cards-list {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  gap: 40px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 50px;
+}
+
+@media (max-width: 900px) {
+  .cards-list {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
 }
 
 .card-badge {
@@ -118,4 +123,21 @@ section {
   padding: 5px 7px;
   border-radius: 2px;
   font-weight: bold;
+}
+
+.card-button {
+  margin-top: auto;
+  background-color: #f75f00;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-button:hover {
+  background-color: #f58b36;
 }
