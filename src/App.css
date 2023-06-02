@@ -3,9 +3,9 @@
 }
 
 #root {
-  max-width: 1280px;
+  max-width: 900px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -28,6 +28,7 @@ nav {
 .dull {
   color: #918E9B;
 }
+
 .nav-logo {
   max-width: 100px;
 }
@@ -50,7 +51,7 @@ section {
 }
 
 .hero-photo {
-  max-width: 650px;
+  max-width: 600px;
   align-self: center;
 }
 
@@ -65,6 +66,9 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-image {
@@ -81,3 +85,21 @@ section {
   height: 14px;
 }
 
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-price {
+  margin-top: auto;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 36px;
+  margin-bottom: 50px;
+}
