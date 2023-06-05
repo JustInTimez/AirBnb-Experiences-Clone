@@ -35,5 +35,5 @@ export default function Card(props) {
         Learn More
       </button>
     </div>
-  );
+  )
 }

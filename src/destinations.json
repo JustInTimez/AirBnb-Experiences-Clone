@@ -1,0 +1,6 @@
+[
+    { "name": "Paris", "image": "/images/paris.webp" },
+    { "name": "Tokyo", "image": "/images/tokyo.jpg" },
+    { "name": "New York City", "image": "/images/nyc.jpg" },
+    { "name": "Rome", "image": "/images/rome.jpg" }
+]
