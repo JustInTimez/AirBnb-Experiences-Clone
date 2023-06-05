@@ -141,3 +141,27 @@ section {
 .card-button:hover {
   background-color: #f58b36;
 }
+
+footer {
+  padding: 20px;
+}
+
+footer .footer-logo {
+  max-width: 100px;
+}
+
+footer nav {
+  margin-top: 10px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #646cff;
+}
