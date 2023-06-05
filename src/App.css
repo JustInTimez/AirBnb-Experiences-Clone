@@ -152,6 +152,8 @@ footer .footer-logo {
 
 footer nav {
   margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer a {
@@ -163,5 +165,5 @@ footer a {
 }
 
 footer a:hover {
-  color: #646cff;
+  color: #ff5c61;
 }
